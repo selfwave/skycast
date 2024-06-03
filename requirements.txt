@@ -1,0 +1,5 @@
+discord.py
+requests
+wikipedia
+pyyaml
+pytz
