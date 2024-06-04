@@ -5,7 +5,7 @@ from typing import Literal, Optional
 import os, requests, random, asyncio, aiohttp, wikipedia, yaml
 import datetime as dt
 
-with open("config.yaml", "r") as f:
+with open("config.yml", "r") as f:
     config = yaml.safe_load(f)
 
 bot = commands.Bot(command_prefix=commands.when_mentioned_or(config["command_prefix"]), intents=discord.Intents.all())

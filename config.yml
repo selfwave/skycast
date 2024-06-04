@@ -11,7 +11,7 @@
 # 1. Get ur bot token at https://discord.com/developers/applications
 # 2. Paste it in the token = "", between the "" (eg. token = "MT3x.....")
 ##################################################
-token = ""
+token: ""
 
 ######################################################################
 #  █████╗ ██████╗ ██╗    ████████╗ ██████╗ ██╗  ██╗███████╗███╗   ██╗██╗
@@ -24,6 +24,18 @@ token = ""
 # 1. We'll have a base url for the bot to use for the API (http://api.weatherapi.com/v1/current.json)
 # 2. You'll need an token from the api, simply login weatherapi.com and get a token
 ######################################################################
-api_key = ""
+api_key: ""
+
+###############################
+# ██████╗  ██████╗ ████████╗██╗
+# ██╔══██╗██╔═══██╗╚══██╔══╝██║
+# ██████╔╝██║   ██║   ██║   ██║
+# ██╔══██╗██║   ██║   ██║   ╚═╝
+# ██████╔╝╚██████╔╝   ██║   ██╗
+# ╚═════╝  ╚═════╝    ╚═╝   ╚═╝
+###############################
+# Basically the prefix and other stuff!
+###############################
+command_prefix: ""
 
 # Skycast™
